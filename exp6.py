@@ -27,5 +27,6 @@ def intermediate_code(expr):
     print(f"\ts := {chr(tmpch + 1)}")
 
 expr = input("Enter the Expression: ")
+# expr = "o+m-y*a/d+a-v"
 print("\n\t\tINTERMEDIATE CODE GENERATION\n")
 intermediate_code(expr)
